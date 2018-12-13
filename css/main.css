@@ -1,0 +1,151 @@
+/*****BASE STYLES*****/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+/*****GRID*****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.clear-fix {
+    clear:both;
+    width: 100%;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+.clear-fix {
+    clear: both;
+    width: 100%;
+}
+
+
+
+
+
+/*****HEADER*****/
+
+header {
+    height: 175px;
+}
+
+header h1 {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+header h1 span {
+    color: #77a466; 
+}
+    
+nav ul li {
+    display: inline-block;
+    
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #77a466;
+    padding-left: 15px;
+    text-decoration: none;
+    
+}
+
+/******WELCOME*****/
+
+#hero-img {
+    border: 4px solid #77a466;
+}
+
+#welcome h2 {
+    text-transform: uppercase;
+    color: #77a466;
+    font-weight: normal;
+    font-size: 20px;
+    
+}
+
+#welcome p {
+    font-weight: bold;
+    line-height: 150%;
+    letter-spacing: 0.25px;
+    padding-bottom: 50px;
+}
+
+/*****MORE-INFO*****/
+
+.third-width {
+    border-top: 1px solid #dedbdc;
+    
+}
+
+
+#more-info h3 {
+    text-transform: uppercase;
+}
+
+#more-info ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+           
+}
+
+#more-info ul li {
+    color: #77a466;
+    line-height: 225%;
+}
+
+#more-info p {
+    line-height: 175%;
+    
+}
+
+#specials {
+    
+}
+
+#reviews {
+    padding-left: 25px;
+    border-right: 2px solid #dedbdc;
+    border-left: 2px solid #dedbdc;
+}
+
+#contact-us {
+    padding-left: 60px;
+   
+}
+/*****FOOTER*****/
+
+footer {
+height: 400px;
+text-align: center;
+}
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    border-top: 4px solid #dedbdc;  
+}
+ 
+footer h2 span {
+    font-family: 'Cookie', cursive;
+    color: #77a466;
+    font-size: 30px;
+    font-style: italic;
+}
